@@ -66,14 +66,14 @@ responses:
 
   # ── Greetings ────────────────────────────────────────────────
   utter_greet:
-    - text: "Hey 👋 I'm MoodBot — a safe space to vent, breathe, or just feel heard. How are you doing right now?"
+    - text: "Hey I'm MoodBot — a safe space to vent, breathe, or just feel heard. How are you doing right now?"
 
   utter_greet_returning:
-    - text: "Welcome back 💙 What's on your mind today?"
+    - text: "Welcome back What's on your mind today?"
 
   utter_goodbye:
-    - text: "Take care of yourself. Remember: one breath at a time 🌿"
-    - text: "Wishing you a gentler rest of the day 💙"
+    - text: "Take care of yourself. Remember: one breath at a time "
+    - text: "Wishing you a gentler rest of the day "
 
   # ── Empathetic acknowledgments (per emotion) ────────────────
   utter_empathy_sad:
@@ -97,8 +97,8 @@ responses:
     - text: "Your anger makes sense. It sounds like something really frustrated or hurt you."
 
   utter_empathy_happy:
-    - text: "That's wonderful to hear! 😊 What's been making things feel good?"
-    - text: "I love hearing that! Hold onto that feeling 🌟"
+    - text: "That's wonderful to hear!  What's been making things feel good?"
+    - text: "I love hearing that! Hold onto that feeling "
 
   utter_empathy_neutral:
     - text: "Thanks for checking in. Sometimes 'okay' is exactly where we are — and that's fine."
@@ -111,9 +111,9 @@ responses:
     - text: |
         Here are a few things that might help right now. Which sounds most appealing?
         
-        🌬️ *Breathing exercise* — calm your nervous system in 2 minutes
-        ✍️ *Journaling prompt* — get thoughts out of your head and onto "paper"
-        🔄 *Reframing* — gently challenge a thought that's bothering you
+         *Breathing exercise* — calm your nervous system in 2 minutes
+         *Journaling prompt* — get thoughts out of your head and onto "paper"
+         *Reframing* — gently challenge a thought that's bothering you
         
         Just say which one you'd like, or I can pick one for you!
 
@@ -138,7 +138,7 @@ responses:
 
   utter_journaling_prompt_sad:
     - text: |
-        ✍️ *Journaling prompt:*
+         *Journaling prompt:*
         
         _"What am I grieving right now — even if it seems small? What would I say to a friend who felt exactly this way?"_
         
@@ -146,42 +146,42 @@ responses:
 
   utter_journaling_prompt_stressed:
     - text: |
-        ✍️ *Journaling prompt:*
+         *Journaling prompt:*
         
         _"If I could remove one thing from my plate right now, what would it be? What's actually in my control today — just today?"_
 
   utter_journaling_prompt_anxious:
     - text: |
-        ✍️ *Journaling prompt:*
+         *Journaling prompt:*
         
         _"What's the worst realistic outcome I'm afraid of? And what's one small thing I could do if that actually happened?"_
 
   utter_journaling_prompt_angry:
     - text: |
-        ✍️ *Journaling prompt:*
+         *Journaling prompt:*
         
         _"What boundary was crossed, ignored, or violated? What do I actually need in this situation that I haven't been able to ask for?"_
 
   utter_journaling_prompt_generic:
     - text: |
-        ✍️ *Journaling prompt:*
+         *Journaling prompt:*
         
         _"What's taking up the most space in my head right now? What would I want tomorrow-me to know about today?"_
 
   utter_reframing:
     - text: |
-        🔄 *Gentle Reframe:*
+         *Gentle Reframe:*
         
         You mentioned something heavy. Try asking yourself:
-        👉 "Is this thought a *fact*, or is it an interpretation?"
-        👉 "What would I say to someone I love who had this exact thought?"
-        👉 "Is there a version of this situation where it's not permanent?"
+         "Is this thought a *fact*, or is it an interpretation?"
+         "What would I say to someone I love who had this exact thought?"
+         "Is there a version of this situation where it's not permanent?"
         
         You don't have to force positivity — just a tiny bit of wiggle room in the thought.
 
   utter_reframing_overwhelmed:
     - text: |
-        🔄 *Reframe for overwhelm:*
+         *Reframe for overwhelm:*
         
         Your brain is treating everything as equally urgent — but that's rarely true.
         
@@ -192,20 +192,20 @@ responses:
   # ── Crisis response ──────────────────────────────────────────
   utter_crisis_response:
     - text: |
-        💙 I want you to know that I hear you, and what you're feeling matters deeply.
+         I want you to know that I hear you, and what you're feeling matters deeply.
         
         I'm a chatbot and I'm not equipped to provide the support this moment calls for — but real help is available right now:
         
-        🇺🇸 *988 Suicide & Crisis Lifeline:* Call or text *988*
-        💬 *Crisis Text Line:* Text HOME to *741741*
-        🌍 *International:* https://www.findahelpline.com
+         *988 Suicide & Crisis Lifeline:* Call or text *988*
+         *Crisis Text Line:* Text HOME to *741741*
+         *International:* https://www.findahelpline.com
         
         Please reach out to one of these — or someone you trust. You deserve real, human support right now. 💙
 
   # ── Identity / help ─────────────────────────────────────────
   utter_bot_identity:
     - text: |
-        I'm *MoodBot* 🤖 — I'm not a therapist or a crisis counselor, just a space to feel heard.
+        I'm *MoodBot*  — I'm not a therapist or a crisis counselor, just a space to feel heard.
         
         I can help you:
         • Vent without judgment
@@ -219,14 +219,14 @@ responses:
     - text: |
         Here's what I can do:
         
-        😔 *Share how you're feeling* — just tell me what's going on
-        🌬️ Say *"breathing exercise"* for a calming technique
-        ✍️ Say *"journaling prompt"* for a reflective question
-        🔄 Say *"help me reframe"* to challenge a difficult thought
-        ℹ️ Say *"what are you?"* to learn about me
+         *Share how you're feeling* — just tell me what's going on
+         Say *"breathing exercise"* for a calming technique
+         Say *"journaling prompt"* for a reflective question
+         Say *"help me reframe"* to challenge a difficult thought
+         Say *"what are you?"* to learn about me
 
   utter_thank_you_response:
-    - text: "I'm really glad this helped even a little 💙"
+    - text: "I'm really glad this helped even a little "
     - text: "Of course. You reached out — that took courage. I hope things feel a bit lighter."
 
   utter_ask_more:
